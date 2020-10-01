@@ -1,0 +1,21 @@
+/* .divButtons{
+
+} */
+
+.typeButton{
+    width: 50%;
+    background-color: teal;
+    height: 2rem;
+    font-family: agency fb;
+    font-weight: bold;
+    font-size:1.3rem;
+    border: none;
+    border-bottom: groove teal;
+    cursor: pointer;
+    color: black;
+}
+
+#leftTypeButton{
+    border-right: dashed #080808;
+    
+}

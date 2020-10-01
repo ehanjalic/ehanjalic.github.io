@@ -1,0 +1,29 @@
+.title{
+    padding: 4rem;
+    display: inline-block;    
+    cursor: pointer;
+}
+
+.title-image{
+    border: solid;
+    border-radius: 3rem;
+    border-color: #010101;
+    float: left;
+    width: 15rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.title-name{
+    /* border: solid;
+    border-radius: 2rem;
+    background-color: black;
+    border-color: black; */
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.3rem;
+    font-family: agency fb;
+    color: teal;
+    font-weight: bold;
+    
+}
