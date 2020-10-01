@@ -16,3 +16,12 @@
   height: 2.5rem;
 }
 
+.rubiconImage{
+  /* float:left; */
+  position: absolute;
+  left:0px;
+  margin: 0;
+  height: 2rem;
+  width: 2rem;
+}
+

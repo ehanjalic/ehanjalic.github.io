@@ -3,6 +3,7 @@ import './App.css';
 import TitlesGrid from './TitlesGrid'
 import SearchForm from './SearchForm'
 import TypeSwitcher from './TypeSwitcher'
+import DetailedTitle from './DetailedTitle'
 
 
 type titlesState = {
@@ -22,11 +23,13 @@ class App extends React.Component<{},titlesState> {
   return (
     <div className="App">
       <header className="App-header">
+        <img src="https://www.rubicon-world.com/logo.png" className="rubiconImage" alt="logo" />
         <p>TV SHOWS AND MOVIES</p>
       </header>
       <TypeSwitcher/>
       <SearchForm/>
       <TitlesGrid pshows = {this.state.titles}/>
+      <DetailedTitle image="https://www.rubicon-world.com/logo.png" overview="WUUHUUHUHU"></DetailedTitle>
     </div>
   );
 }
